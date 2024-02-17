@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+body{
+    /* font-style:'https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap'; */
+    color: #777;
+    line-height: 1.7;
+}
+
+.icons-div{
+    padding: 1.2REM;
+    display: flex; justify-content: center; align-items: center; color: white;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background-color: #f3274c;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+h1, h2, h3, h4, h5, h6{
+color: #222;
+font-weight: 600;
+font-family: Alkatra;
+}
+p{
+    color: #777676;
+    font-family: Alkatra;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 2.8REM;
+}
+#h-one{
+    font-size: 3.2rem;
+}
+.text-white{
+    font-family:'Times New Roman', Times, serif sans-serif ;
+    font-weight: 600;
+}
+.col-lg-8{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5REM;
+}
+span{
+    font-weight: 700;
+    cursor: pointer;
+    font-family: alkatra;
+}
+span:hover{
+    color: #f3274c;
+}
+ul li{
+    font-weight: 700;
+    font-size: 1.4REM;
+}
+.navbar-nav li a:hover{
+    color: #f3274c;
+}
+.navbar-brand{
+    display: flex; 
+    justify-content: center;
+}
+#navbarNav {
+    width: 90%;
+}
+#social-media-a{
+    color: #222;
+    /* text-decoration: none; */
+    transition: all 0.4s;
+    font-weight: 700;
+}
+#social-media-a:hover{
+    color: #f3274c;
+}
+li a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 700;
+}
+#nav-btn{
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #f3274c;
+    border: 3px solid #ffd40d;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px #ffd40d;
+    font-family: alkatra;
+}
+#nav-btn:hover {
+    transform: translate(5px, -5px);
+}
+/* linear-gradient( rgb(0, 0,0, 0.5), rgb(0, 0,0, 0.5) ), https://img.freepik.com/free-photo/flat-lay-salmon-with-veggies_23-2148322812.jpg?w=740&t=st=1701863529~exp=1701864129~hmac=19a161c9ae74f9628b80a150d1bde12469ae269cf55c6509316a7b8fffe08f6f */
+.slide-1{
+    /* background: url(https://media.istockphoto.com/id/1221302452/photo/spicy-chicken-wings-in-honey-with-potato-wedges.jpg?s=612x612&w=0&k=20&c=y2qhQYorHPzaVR5GTNifHIwBPb4rwAZt5xXuEdAdHco=); */
+    /* url(https://img.freepik.com/premium-photo/rice-with-chicken-fillet-vegetables-top-view-black-background-free-copy-space_187166-34853.jpg?w=900) */
+    background: linear-gradient( rgb(0, 0,0, 0.2), rgb(0, 0,0, 0.2) ),  url(https://img.freepik.com/premium-photo/rice-with-chicken-fillet-vegetables-top-view-black-background-free-copy-space_187166-34853.jpg?w=900) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-2{
+    background:linear-gradient( rgb(0, 0,0, 0.2), rgb(0, 0,0, 0.2) ),  url(https://img.freepik.com/premium-photo/cropped-shot-young-male-chef-preparing-meal-professional-kitchen_579247-36.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-3{
+    background: linear-gradient( rgb(0, 0,0, 0.2), rgb(0, 0,0, 0.2) ),  url(https://img.freepik.com/premium-photo/glass-iced-americano-black-coffee-layer-orange-lemon-juice-decorated-with-rosemary-cinnamon_1339-134166.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid{
+    background-color: #ffd40d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+#first_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#columns{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.links-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5REM;
+}
+#chooseUsDiv .card .card-body{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#second_conatiner{
+    display: flex;
+    padding: 1rem;
+    height: min(65REM);
+    flex-direction: column;
+    gap: 2REM;
+    justify-content: space-evenly;
+}
+/* little cards animation */
+#littleCards .card{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 25px; */
+}
+#littleCards .card::before,
+#littleCards .card::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #f3274c ;
+    transition: all 0.5s;
+}
+
+#littleCards .card::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+}
+
+#littleCards .card::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+}
+
+#littleCards .card:hover::before,
+#littleCards .card:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+} 
+
+#littleCards .card:hover:after {
+    content: "CHECK";
+    color: WHITE;
+} 
+
+/* big card animation */
+.bigCard{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 25px; */
+}
+.bigCard::before,
+.bigCard::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #f3274c;
+    transition: all 0.5s;
+}
+
+.bigCard::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+}
+
+.bigCard::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+}
+
+/* reserve table */
+#reserve_container_row{
+    /* background-image:url(https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: #f3274c;
+    /* background-blend-mode: color; */
+}
+#reserve_container_row p{
+    color: white;
+    font-size: larger;
+}
+.card-body img{
+    width: 6REM;
+}
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-4 img{
+    /* width: 70REM; */
+    padding: .1REM;
+}
+#reserve_container_row{
+    background-color: #f3274c;
+    width: 90%;
+    height: 60%;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    color: white;
+    border-radius: 2REM; 
+}
+#first_reserve_row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+#first_reserve_row h1{
+    font-size: 4REM;
+    font-weight: 700; 
+    font-family: Alkatra;
+}
+#first_reserve_row p{
+    margin-top: 4REM;
+}
+.progress{
+    width: 68%; 
+}
+#wrap_column{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1REM;
+    height: 80%;
+    margin-left: auto;
+    padding-right: 4REM;
+}
+#wrap_column input{
+    width: 42%;
+    height: 21%;
+    border-radius: .8REM;
+    font-family: Alkatra;
+}
+#wrap_column #time_and_date{
+    width: 20%;
+}
+#wrap_column button{
+    background-color: #ffd40d;
+    border: 3px solid #f3274c;
+    color: black;
+}
+#second-carousel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.price_and_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Alkatra;
+}
+.stars_div i{
+    color: #ffd40d;
+}
+.btn-warning{
+    width: 15%;
+}
+/* CONTACT US  */
+#exampleFormControl{
+    border: 3px solid #d9d8d8 ;
+    border-radius: .5REM;
+    padding: .8REM 1.5REM;
+}
+#exampleFormControl::placeholder{
+    color: #a3a5a6;
+}
+#exampleFormControl:hover{
+    border: 3px solid #ffd40d;
+}
+label{
+    color: #777676;
+    font-family: Alkatra;
+}
+input::placeholder{
+    font-family: Alkatra;
+}
+textarea::placeholder{
+    font-family: Alkatra;
+}
+/* FOOTER */
+#lastInput{
+    border-radius: .5REM;
+    padding: 1REM 1.5REM;
+    border: #d9d8d8 3px solid;
+    font-family: Alkatra;
+    border-radius: 1REM;
+}
+#lastInput:hover{
+    border: #ffd40d solid 2px;
+}
+#footerFirstRow span{
+    color: #ffd40d;
+}
+#footerFirstRow h5{
+    color: white;
+    font-size: larger;
+    font-family: Alkatra;
+}
+#footerFirstRow h6{
+    color: white;
+    font-family: Alkatra;
+}
+
+ul li{
+    cursor: pointer;
+    font-family: Alkatra;
+    /* font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+ul li:hover{
+    color: #f3274c;
+}
+
+/* chefs div */
+#icons-div{
+    padding: 1.2REM;
+    display: flex; justify-content: center; align-items: center; color: white;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background-color: #f5f8fd;
+    cursor: pointer;
+}
+#icons-div:hover{
+    background-color: #f3274c;
+}
+#icons-div i{
+    color: black;
+}
+#icons-div i:hover{
+    color: white;
+}
+
+/* social media card */
+#card svg {
+    height: 25px;
+}
+#card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #e7e7e7;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    height: 50px;
+    width: 200px;
+}
+#card::before,  #card::after {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    transition: 0.25s linear;
+    z-index: 1;
+}
+#card::before {
+    content: "";
+    left: 0;
+    justify-content: flex-end;
+    background-color: #ffd40d;
+}
+#card::after {
+    content: "";
+    right: 0;
+    justify-content: flex-start;
+    background-color: #fd1842;
+}
+#card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#card:hover span {
+    opacity: 0;
+    z-index: -3;
+}
+#card:hover::before {
+    opacity: 0.5;
+    transform: translateY(-100%);
+}
+#card:hover::after {
+    opacity: 0.5;
+    transform: translateY(100%);
+}
+#card span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    font-family: 'Fira Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+}
+#card .social-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+#card .social-link svg {
+    text-shadow: 1px 1px rgba(31, 74, 121, 0.7);
+    transform: scale(1);
+}
+#card .social-link:hover {
+    background-color: rgba(249, 244, 255, 0.774);
+    animation: bounce_613 0.4s linear;
+}
+@keyframes bounce_613 {
+    40% {
+    transform: scale(1.4);
+    }
+    60% {
+        transform: scale(0.8);
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

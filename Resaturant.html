@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sai Restaurant</title>
+    <script src="https://kit.fontawesome.com/2d94d7f0fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/Restaurant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Amaranth:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container-fluid  p-2">
+            <div id="first_row" class="row">
+                <div id="columns" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-12 ">
+                    <div class="info-div">
+                        <div class="icons-div">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                        <span>Phone :+2(137)9049-2317</span>
+                    </div>
+                </div>
+                <div id="columns" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-12">
+                    <div class="info-div">
+                        <div class="icons-div">
+                        <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <span>Email :info@email.com</span>
+                    </div>
+                </div>
+                <div id="columns" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-12">
+                    <div class="links-div">
+                        <a id="social-media-a" href="">Facebook</a>
+                        <a id="social-media-a" href="">Instagram</a>
+                        <a id="social-media-a" href="">WhatsApp</a>
+                        </div>
+                </div>
+                <div id="columns" class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-12">
+                    <div class="links-div">
+                        <div class="icons-div"><i class="fa-regular fa-user"></i></div>
+                        <span>Login/Register</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar -->
+    <nav class="navbar  sticky-top navbar-expand-lg bg-body-white">
+        <div class="container" >
+        <a class="navbar-brand " href="#">
+            <img src="../images.jpg/Yellow and White Minimalist Kitchen Logo (2).png" style="width: 65%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Our Chefs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ">Contact Us</a>
+            </li>
+            </ul>
+            <button id="nav-btn" class="btn">Reserve a Table</button>
+        </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <!-- first carousel image -->
+        <div class="carousel-item vh-100 active slide-1">
+            <div class="container h-100 d-flex align-items-center justify-content-start">
+                <div class="row d-flex justify-content-start  h-50 m-2">
+                    <div class="col-lg-8">
+                        <h6 class="text-white">Welcome To <span style="color: #ffd40d;">Sai Restaurant</span></h6>
+                        <h1 id="h-one" class="text-white">The Perfect Space To Enjoy Fantastic Food</h1>
+                        <p class="text-white">Come with the family and feel the joy of our delicious food</p>
+                        <button id="nav-btn" class="btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second carousel image -->
+        <div class="carousel-item vh-100 slide-2">
+            <div class="container h-100 d-flex align-items-center justify-content-start">
+                <div class="row d-flex justify-content-start  h-50  m-2">
+                    <div class="col-lg-8">
+                        <!-- <h6 class="text-white">Welcome To <span style="color: #ffd40d;">The Best Restaurant</span></h6> -->
+                        <h1 id="h-one"  class="text-white">The perfect food with our <span style="color: #ffd40d;">talented chefs</span> </h1>
+                        <p class="text-white">Come with the family and feel the joy of our delicious food</p>
+                        <button id="nav-btn" class="btn">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- third carousel image -->
+        <div class="carousel-item slide-3 vh-100">
+            <div class="container h-100 d-flex align-items-center justify-content-start">
+                <div class="row d-flex justify-content-start  h-50 m-2">
+                    <div class="col-lg-8">
+                        <!-- <h6 class="text-white">Welcome To <span style="color: #ffd40d;">The Perfect Restaurant</span></h6> -->
+                        <h1 id="h-one"  class="text-white">The Perfect Space To Enjoy <span style="color: #ffd40d;">Fantastic Drinks</span> </h1>
+                        <p class="text-white">Come with the family and feel the joy of our delicious food</p>
+                        <button id="nav-btn" class="btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Why Choose us -->
+    <div class="container-fluid vh-100 bg-light" style="flex-direction: column; justify-content: center; align-items: center; justify-content: space-evenly;">
+        <div class="theme">
+            <h1 style="font-size: 3REM; font-weight: 800;">Why Choose Us</h1>
+            <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="chooseUsDiv" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="littleCards" class="card" style="border-radius: 1REM; border: #ffd40d SOLID .3REM; ">
+                <img style="width: 7rem; margin: auto; margin-top: 1REM;  " src="../images.jpg/organic-food (3).png" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">hygienic food</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+                </div>
+            </div>
+            <div  id="chooseUsDiv" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="littleCards" class="card" style="border-radius: 1REM; border: #ffd40d SOLID .3REM;">
+                <img style="width: 7rem; margin:auto; margin-top: 1REM;" src="../images.jpg/furniture.png" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Fresh Environment</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+                </div>
+            </div>
+            <div  id="chooseUsDiv" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card" style="border-radius: 1REM; border: #ffd40d SOLID .3REM;">
+                <img style="width: 7rem; margin:auto; margin-top: 1REM;" src="../images.jpg/chef.png" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Skilled Chefs</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+                </div>
+            </div>
+            <div  id="chooseUsDiv" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card" style="border-radius: 1REM; border: #ffd40d SOLID .3REM;">
+                <img style="width: 7rem; margin:auto;margin-top: 1REM;" src="../images.jpg/party.png" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Event & Party</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- menu box -->
+    <div id="second_conatiner" class="container d-flex justify-content-center align-items-center ">
+        <div class="theme">
+            <h1 style="font-size: 3REM; font-weight: 800;">Discover Menu</h1>
+            <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+        <!-- little cards -->
+        <div id="littleCards" class="container">
+            <div class="row d-flex flex-direction-row justify-content-center ">
+                <div style="width: 14rem;" class=" col-lg-3 col-md-6 col-sm-4 col-xs-12 d-flex  justify-content-center ">
+                    <div  id="plateslilcard" class="card  text-center " style="border-radius: 1REM;">
+                        <div class="card-body">
+                            <img id="plateslilImg" src="../images.jpg/food.png" alt="" class="card-img">
+                            <!-- <img id="plateslilImg" src="../images.jpg/food (1).png" alt="" class="card-img"> -->
+                            <h4 style="font-weight: 700;" class="card-title">Plates</h4>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 14rem;" class=" col-lg-3 col-md-6 col-sm-4 col-xs-12  d-flex  justify-content-center ">
+                    <div id="saladlilcard"  class="card text-center "  style="border-radius: 1REM;" >
+                        <div class="card-body">
+                            <img id="saladlilimg" src="../images.jpg/salad (1).png" alt="" class="card-img">
+                            <h4 class="card-title" style="font-weight: 700;" >Salad</h4>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 14rem;" class=" col-lg-3 col-md-6 col-sm-4 col-xs-12  d-flex  justify-content-center ">
+                    <div id="dessertlilcard"  class="card text-center"  style="border-radius: 1REM;">
+                        <div class="card-body">
+                            <img id="dessertlilimg" src="../images.jpg/donut.png" alt="" class="card-img">
+                            <h4 class="card-title" style="font-weight: 700;" >Dessert</h4>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 14rem; " class=" col-lg-3 col-md-6 col-sm-4 col-xs-12  d-flex  justify-content-center ">
+                    <div id="drinkslilcard"  class="card text-center"  style="border-radius: 1REM;" >
+                        <div class="card-body">
+                            <img id="drinkslilimg" src="../images.jpg/orange-juice.png" alt="" class="card-img">
+                            <h4 class="card-title" style="font-weight: 700;">  Drinks </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu cards -->
+        <div id="plates" class="card bigCard  mb-3" style="width: 100%; display: flex;">
+            <div class="row g-0">
+            <div class="col-md-4">
+                <!-- https://img.freepik.com/premium-photo/plate-grilled-chicken-with-vegetables-isolated-white-background-photo-menu_639032-1542.jpg?w=740 -->
+                <img id="card-img" src="https://img.freepik.com/premium-photo/veal-steak-bone-white-background_420831-5.jpg?w=740" class="img-fluid rounded-start " alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title" style="font-size: 2.8REM; font-weight: 700;">Plates</h2>
+                    <!-- first dish -->
+                    <div class="price_and_name" style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Four chease Garlic Bread</h3>
+                        <h2 style="color: #f3274c;">$9.00</h2>
+                    </div>
+                    <p class="card-text">Toested french bread topped with romano</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- second dish  -->
+                    <div class="price_and_name" style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Caprese Salad Kabobs </h3>
+                        <h2 style="color: #f3274c;">$8.00</h2>
+                    </div>
+                    <p class="card-text"> Cherry-size fresh mozzarella cheese balls</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- third dish -->
+                    <div class="price_and_name" style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Peachy Jalepeno Guacomole</h3>
+                        <h2 style="color: #f3274c;">$18.00</h2>
+                    </div>
+                    <p class="card-text">Ground cumin, avocados, peeled and cubed</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- fourth dish -->
+                    <div class="price_and_name "
+                    style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Rastrami Roll</h3>
+                        <h2 style="color: #f3274c;">$15.00</h2>
+                    </div>
+                    <p class="card-text">Spreadable cream cheese, blue cheese</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="salads" class="card bigCard  mb-3" style="width: 100%; display: none; ">
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img id="card-img" src="https://img.freepik.com/premium-photo/salad-plate-isolated-white_182252-5355.jpg?w=740" class="img-fluid rounded-start " alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                
+                    <h2 class="card-title" style="font-size: 2.8REM; font-weight: 700;">Salads</h2>
+                <!-- first dish -->
+                <div class="price_and_name" style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                    <h3 class="mt-3">Four chease Garlic Bread</h3>
+                    <h2 style="color: #f3274c;">$9.00</h2>
+                </div>
+                <p class="card-text">Toested french bread topped with romano</p>
+                <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                <!-- second dish  -->
+                <div class="price_and_name" style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                    <h3 class="mt-3">Caprese Salad Kabobs </h3>
+                    <h2 style="color: #f3274c;">$8.00</h2>
+                </div>
+                <p class="card-text"> Cherry-size fresh mozzarella cheese balls</p>
+                <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                <!-- third dish -->
+                <div class="price_and_name" style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                    <h3 class="mt-3">Peachy Jalepeno Guacomole</h3>
+                    <h2 style="color: #f3274c;">$18.00</h2>
+                </div>
+                <p class="card-text">Ground cumin, avocados, peeled and cubed</p>
+                <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                <!-- fourth dish -->
+                <div class="price_and_name "
+                style=" width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                    <h3 class="mt-3">Rastrami Roll</h3>
+                    <h2 style="color: #f3274c;">$15.00</h2>
+                </div>
+                <p class="card-text">Spreadable cream cheese, blue cheese</p>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div id="dessert" class="card bigCard  mb-3" style="width: 100%;display: none;  ">
+            <div class="row g-0">
+            <div class="col-md-4">
+                <!-- https://img.freepik.com/premium-photo/cupcake-with-fresh-raspberries-raspberry-syrup-isolated-white-background_183587-180.jpg?w=740 -->
+                <!-- https://img.freepik.com/premium-photo/stack-delicious-pancakes-with-berries-mint-leaf-plate-isolated-white_152391-82.jpg -->
+                <img id="card-img"  src="https://img.freepik.com/premium-photo/plate-pancakes-with-syrup-blueberries-it_667286-862.jpg?w=740" class="img-fluid rounded-start ">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <!-- first dish -->
+                    <h2 class="card-title" style="font-size: 2.8REM; font-weight: 700;">Dessert</h2>
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Pancakes with Honey</h3>
+                        <h2 style="color: #f3274c;">$12.00</h2>
+                    </div>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing.</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- second dish  -->
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Cherry cupcakes</h3>
+                        <h2 style="color: #f3274c;">$10.00</h2>
+                    </div>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing.</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- third dish -->
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Tiramisu</h3>
+                        <h2 style="color: #f3274c;">$29.00</h2>
+                    </div>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing.</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- fourth dish -->
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Banana Bread</h3>
+                        <h2 style="color: #f3274c;">30.00</h2>
+                    </div>
+                    <p class="card-text">Lorem Ipsum is simply dummy printing.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="drinks" class="card bigCard  mb-3" style="width: 100%; display: none;">
+            <div class="row g-0">
+            <div class="col-md-4">
+                
+                <img id="card-img" src="https://img.freepik.com/free-photo/front-view-fresh-fruit-cocktail-with-fresh-fruit-slices-ice-cooling-white-drink-juice-cocktail-fruit-color_140725-24728.jpg?w=740&t=st=1700084675~exp=1700085275~hmac=b7fc37a6ed5d74c7af4663648b6b617d14bcfd13c07957ab1bc1fd68434a6897" class="img-fluid rounded-start " alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <!-- first dish -->
+                    <h2 class="card-title" style="font-size: 2.8REM; font-weight: 700;">Drinks</h2>
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Rainbow Paradise Cocktail</h3>
+                        <h2 style="color: #f3274c;">$9.00</h2>
+                    </div>
+                    <p class="card-text">Loreum Opsum deller topped withla raman</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- second dish  -->
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Rainbow Paradise Cocktail</h3>
+                        <h2 style="color: #f3274c;">$8.00</h2>
+                    </div>
+                    <p class="card-text">Loreum Opsum deller topped withla raman</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- third dish -->
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Rainbow Paradise Cocktail</h3>
+                        <h2 style="color: #f3274c;">$5.00</h2>
+                    </div>
+                    <p class="card-text">Loreum Opsum deller topped withla raman</p>
+                    <div style="width: 80%; background-color: grey; height: 1PX;"></div>
+                    <!-- fourth dish -->
+                    <div class="price_and_name" style="width:80% ; display:flex; align-items: center; flex-direction: row; justify-content: flex-start; justify-content: space-between;">
+                        <h3 class="mt-3">Rainbow Paradise Cocktail</h3>
+                        <h2 style="color: #f3274c;">$19.00</h2>
+                    </div>
+                    <p class="card-text">Loreum Opsum deller topped withla raman</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reserve a table  -->
+    <div id="reserve_table"  class=" bg-light container-fluid vh-100 d-flex justify-content-center align-items-center">
+        <div id="reserve_container_row" class="row" >
+            <div id="first_reserve_row" class="col-lg-6 md-6 sm-12 col-xs-12 ">
+                <h1>Reserve <br> A Table</h1>
+                <div class="progress" style="height: .3REM;">
+                    <div class="progress-bar bg-warning" style="width: 100% "></div>
+                </div>
+                <p>Reserve Your Table Now!</p>
+            </div>
+            <div id="wrap_column" class="col-lg-6 md-6 sm-12 col-xs-12 d-flex flex-wrap ">
+                <input type="text" class="input form-control" placeholder="Complete Name">
+                <input type="email" class="input form-control" placeholder="Email Address">
+                <input type="number" class="input form-control" placeholder="Number Of Guests">
+                <input id="time_and_date" type="date" class="input form-control" >
+                <input id="time_and_date" type="time" class="input form-control" >
+                <button id="nav-btn" class="btn">Reserve a Table</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- featured dishes -->
+    <div class="container-fluid bg-light vh-100" id="second-carousel-container">
+        <div class="theme">
+            <h1 style="font-size: 3REM; font-weight: 800;">Featured Dishes</h1>
+            <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+        <!-- DISHES CAROUSEL -->
+        <div style="width: 90%;" id="carouselExampleAutoplaying" class=" slide h-100 " data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class="card-group">
+                        <div class="card m-2" style="height: 28REM; border-radius: 1REM; border: .4rem solid #ffd40d;">
+                            <img style="border-radius: 1REM" src="https://img.freepik.com/premium-photo/beef-meat-stew_770606-4037.jpg?w=740" class="card-img-top" alt="...">
+                        <div class="card-body w-100">
+                            <div class="stars_div">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 class="card-title">Grilled beef steak</h3>
+                            <div class=" container price_and_button">
+                                <p class="card-text" style="font-weight: 800; font-size: xx-large;"><small class="text-body-secondary">28.00 <span style="color: #f3274c;">$</span></small></p>
+                                <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card m-2" style="height: 28REM; border-radius: 1REM; border: .4rem solid #ffd40d;">
+                            <img style="border-radius: 1REM"  src="https://img.freepik.com/free-photo/salad-with-vitamins-body-weight-maintenance_7502-7270.jpg?w=740&t=st=1703516107~exp=1703516707~hmac=5f1af92d1cbf22ab26df12cb1ee02eb1c9d357f94690bbf5782c7d5c9e7bbf24" class="card-img-top" alt="...">
+                            <div class="card-body w-100">
+                                <div class="stars_div">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h3 class="card-title">Cesar Salad</h3>
+                                <div class=" container price_and_button">
+                                    <p class="card-text" style="font-weight: 800; font-size: xx-large;"><small class="text-body-secondary">45.00 <span style="color: #f3274c;">$</span></small></p>
+                                    <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card m-2" style="height: 28REM; border-radius: 1REM; border: .4rem solid #ffd40d;">
+                            <!-- https://img.freepik.com/premium-photo/grilled-beef-steak-meat-with-fried-potato-asparagus-cherry-tomato-steak-dinner-food_488220-41758.jpg?w=740 -->
+                            <img style="border-radius: 1REM"  src="https://img.freepik.com/premium-photo/rice-noodle-spicy-soup-with-pork-vegetables_61813-1724.jpg" class="card-img-top" alt="...">
+                            <div class="card-body w-100">
+                                <div class="stars_div">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h3 class="card-title">Rice noodle spicy soup</h3>
+                                <div class=" container price_and_button">
+                                    <p class="card-text" style="font-weight: 800; font-size: xx-large;"><small class="text-body-secondary">15.00 <span style="color: #f3274c;">$</span></small></p>
+                                    <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-group">
+                        <div class="card m-2" style="height: 28REM; border-radius: 1REM; border: .4rem solid #ffd40d;">
+                            <img style="border-radius: 1REM"  src="https://img.freepik.com/premium-photo/mini-pavlovas-with-whipped-cream-fresh-fruit_711700-3694.jpg?w=740" class="card-img-top" alt="...">
+                        <div class="card-body w-100">
+                            <div class="stars_div">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 class="card-title">Cesar Salad</h3>
+                            <div class=" container price_and_button">
+                                <p class="card-text" style="font-weight: 800; font-size: xx-large;"><small class="text-body-secondary">4500 <span style="color: #f3274c;"> DA</span></small></p>
+                                <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card m-2" style="height: 28REM; border-radius: 1REM; border: .4rem solid #ffd40d;">
+                            <img style="border-radius: 1REM"  src="https://img.freepik.com/premium-photo/delicious-shortcake_1472-5218.jpg" class="card-img-top" alt="...">
+                            <div class="card-body w-100">
+                                <div class="stars_div">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h3 class="card-title">Cesar Salad</h3>
+                                <div class=" container price_and_button">
+                                    <p class="card-text" style="font-weight: 800; font-size: xx-large;"><small class="text-body-secondary">4500 <span style="color: #f3274c;"> DA</span></small></p>
+                                    <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card m-2" style="height: 28REM; border-radius: 1REM; border: .4rem solid #ffd40d;">
+                            <img style="border-radius: 1REM"  src="https://img.freepik.com/premium-photo/sweet-thin-french-style-crepes-served-with-strawberries_488220-30239.jpg?w=740" class="card-img-top" alt="...">
+                            <div class="card-body w-100">
+                                <div class="stars_div">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h3 class="card-title">Cesar Salad</h3>
+                                <div class=" container price_and_button">
+                                    <p class="card-text" style="font-weight: 800; font-size: xx-large;"><small class="text-body-secondary">4500 <span style="color: #f3274c;"> DA</span></small></p>
+                                    <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+    </div>
+
+    <!-- chefs div -->
+    <div class="container-fluid h-100 bg-white mt-3 " style="display: flex; flex-direction: column; align-items: center;">
+        <div class="theme mb-3">
+            <h1 style="font-size: 3REM; font-weight: 800;">Meet Our Experts</h1>
+            <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card m-2" style="border: none;">
+                <img style="padding: 1REM;" src="https://img.freepik.com/premium-photo/cheerful-chef-isolated-white_53419-2683.jpg?w=360" class="card-img-top" alt="...">
+            <div class="card-body" style="display: flex; flex-direction: column; align-items: center; gap: 1REM;">
+                <h5 class="card-title" style="color: #f3274c;">BBQ Specialist</h5>
+                <h1>James Johnson</h1>
+                <div class="conatiner-fluid w-100">
+                    <div class="row w-100 "
+                    style=" display: flex; flex-direction: row; justify-content: center; align-items: center; gap: .5REM;">
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-light"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-light"><i class="fa-brands fa-instagram"></i></div>
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-loght"><i class="fa-brands fa-whatsapp"></i></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card m-2" style="border: none;">
+                <img style="padding: .5REM;" class="card-img-top" src="https://img.freepik.com/free-psd/smiling-cook-with-roller_1154-530.jpg?w=740&t=st=1703179672~exp=1703180272~hmac=59dcae8aff7034933a2d66887247f7944e5c35e6d254ef38aca3ba9723567c42" alt="">
+            <div class="card-body" style="display: flex; flex-direction: column; align-items: center; gap: 1REM;">
+                <h5 class="card-title" style="color: #ffd40d;">Chef Master</h5>
+                <h1 class="card-title">Thomas Walim</h1>
+                <div class="conatiner-fluid w-100">
+                    <div class="row w-100 "
+                    style=" display: flex; flex-direction: row; justify-content: center; align-items: center; gap: .5REM;">
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-light"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-light"><i class="fa-brands fa-instagram"></i></div>
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-loght"><i class="fa-brands fa-whatsapp"></i></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card m-2" style="border: none;">
+            <img style="padding: 1REM;"  class="card-img-top"src="https://img.freepik.com/premium-photo/portrait-female-chef_488220-44275.jpg?w=360" alt="">
+            <div class="card-body" style="display: flex; flex-direction: column; align-items: center; gap: 1REM;">
+                <h5 class="card-title" style="color: #f3274c;">Dessert Specialist</h5>
+                <h1>Roomy Minal</h1>
+                <div class="conatiner-fluid w-100">
+                    <div class="row w-100 "
+                    style=" display: flex; flex-direction: row; justify-content: center; align-items: center; gap: .5REM;">
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-light"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-light"><i class="fa-brands fa-instagram"></i></div>
+                        <div id="icons-div"  class="col-lg-4 col-md-4 col-sm-4 col-xs-6 bg-loght"><i class="fa-brands fa-whatsapp"></i></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact us  -->
+    <div class="container" style="display: flex; flex-direction: column; align-items: center;" >
+        <div class="theme mb-3">
+            <h1 style="font-size: 3REM; font-weight: 800;">Contact Us</h1>
+            <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+        <div id="form-row" class="row w-100 ">
+            <div class="col-lg-6 col-md-6 col-sm-12 w-50">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                    <input type="text" class="form-control"  id="exampleFormControl" placeholder="Miss/Sir">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email Adress</label>
+                    <input type="email" class="form-control"  id="exampleFormControl" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control"  id="exampleFormControl" placeholder="+()...Your number">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="exampleFormControl" placeholder="Write your message dear" rows="3"></textarea>
+                </div>
+                <button id="nav-btn" class="btn">Contact Us</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 w-50"
+            style="display: flex; justify-content: center; align-items: center;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51144.64919260501!2d3.450487204539621!3d36.75759729803361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e68dcc89e5b23%3A0x84e914279405eb13!2sBoumerd%C3%A8s!5e0!3m2!1sfr!2sdz!4v1703192685230!5m2!1sfr!2sdz" 
+                width="500" height="470" style="border:0; border-radius: 1REM;  "
+                allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid bg-light mt-3" 
+    style=" height: 80vh; display: flex; justify-content: center; align-items: center;" >
+        <div class="row w-100"
+        style=" height: 100%; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+        <!-- cols -->
+            <div id="footerFirstRow " class="col-lg-3 col-md-4 col-sm-6 col-xs-12 "
+            style=" height: 60%; border-radius: 1REM; display: flex; flex-direction: column; background-color: #f3274c;
+                justify-content: center; align-items: center; justify-content: space-evenly;">
+                <img src="../images.jpg/Yellow and White Minimalist Kitchen Logo (1).png" style="width: 100%;">
+                <h5 style="color: white;"> The 800 Street, Boumerdes, Algeria</h5>
+                <h6 style="color: white;"><span style="color: #ffd40d;">Hotlin</span>: +213 964 565 876</h6>
+                <h6 style="color: white;"><span style="color: #ffd40d;">Email</span>: Sairestaurant@gmail.com</h6>
+            <!-- the social media card -->
+                <div id="card" class="card">
+                    <span>Social</span>
+                    <a class="social-link" href="#">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#F61C0D;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path> </g> </g></svg>
+                    </a>
+                    <a class="social-link" href="#">
+                        <svg fill="#000000" viewBox="0 0 512 512" id="icons" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"></path></g></svg>
+                    </a>
+                    <a class="social-link" href="#">
+                        <svg viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#5865F2" fill-rule="nonzero"> </path> </g> </g></svg>
+                    </a>
+                    <a class="social-link" href="#">
+                        <svg fill="#000000" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M488.1 414.7V303.4L300.9 428l83.6 55.8zm254.1 137.7v-79.8l-59.8 39.9zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm278 533c0 1.1-.1 2.1-.2 3.1 0 .4-.1.7-.2 1a14.16 14.16 0 0 1-.8 3.2c-.2.6-.4 1.2-.6 1.7-.2.4-.4.8-.5 1.2-.3.5-.5 1.1-.8 1.6-.2.4-.4.7-.7 1.1-.3.5-.7 1-1 1.5-.3.4-.5.7-.8 1-.4.4-.8.9-1.2 1.3-.3.3-.6.6-1 .9-.4.4-.9.8-1.4 1.1-.4.3-.7.6-1.1.8-.1.1-.3.2-.4.3L525.2 786c-4 2.7-8.6 4-13.2 4-4.7 0-9.3-1.4-13.3-4L244.6 616.9c-.1-.1-.3-.2-.4-.3l-1.1-.8c-.5-.4-.9-.7-1.3-1.1-.3-.3-.6-.6-1-.9-.4-.4-.8-.8-1.2-1.3a7 7 0 0 1-.8-1c-.4-.5-.7-1-1-1.5-.2-.4-.5-.7-.7-1.1-.3-.5-.6-1.1-.8-1.6-.2-.4-.4-.8-.5-1.2-.2-.6-.4-1.2-.6-1.7-.1-.4-.3-.8-.4-1.2-.2-.7-.3-1.3-.4-2-.1-.3-.1-.7-.2-1-.1-1-.2-2.1-.2-3.1V427.9c0-1 .1-2.1.2-3.1.1-.3.1-.7.2-1a14.16 14.16 0 0 1 .8-3.2c.2-.6.4-1.2.6-1.7.2-.4.4-.8.5-1.2.2-.5.5-1.1.8-1.6.2-.4.4-.7.7-1.1.6-.9 1.2-1.7 1.8-2.5.4-.4.8-.9 1.2-1.3.3-.3.6-.6 1-.9.4-.4.9-.8 1.3-1.1.4-.3.7-.6 1.1-.8.1-.1.3-.2.4-.3L498.7 239c8-5.3 18.5-5.3 26.5 0l254.1 169.1c.1.1.3.2.4.3l1.1.8 1.4 1.1c.3.3.6.6 1 .9.4.4.8.8 1.2 1.3.7.8 1.3 1.6 1.8 2.5.2.4.5.7.7 1.1.3.5.6 1 .8 1.6.2.4.4.8.5 1.2.2.6.4 1.2.6 1.7.1.4.3.8.4 1.2.2.7.3 1.3.4 2 .1.3.1.7.2 1 .1 1 .2 2.1.2 3.1V597zm-254.1 13.3v111.3L723.1 597l-83.6-55.8zM281.8 472.6v79.8l59.8-39.9zM512 456.1l-84.5 56.4 84.5 56.4 84.5-56.4zM723.1 428L535.9 303.4v111.3l103.6 69.1zM384.5 541.2L300.9 597l187.2 124.6V610.3l-103.6-69.1z"></path> </g></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  m-1"
+                style="width: 16%; display: flex; flex-direction: column; gap: 2REM;">
+                <div class="theme ">
+                    <h1 style="font-size: 2REM; font-weight: 800;">About Us</h1>
+                    <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-warning" style="width: 100%"></div>
+                    </div>
+                </div>
+                <ul style="list-style-type: circle; display: flex; flex-direction: column; gap: 1.5rem;">
+                    <li>Informations</li>
+                    <li>Special dishes</li>
+                    <li>Reservation</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 m-1"
+            style="width: 16%; display: flex; flex-direction: column; gap: 2REM;">
+                <div class="theme ">
+                    <h1 style="font-size: 2REM; font-weight: 800;">Menu</h1>
+                    <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-warning" style="width: 100%"></div>
+                    </div>
+                </div>
+                <ul style="list-style-type: circle; display: flex; flex-direction: column; gap: 1.5rem;">
+                    <li>Steak</li>
+                    <li>Coctails</li>
+                    <li>Bar B Q</li>
+                    <li>Desserts</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  m-1" 
+                style="width: 30%; display: flex; flex-direction: column; gap: 2REM;">
+                <div class="theme ">
+                    <h1 style="font-size: 2REM; font-weight: 800;">Newsletter</h1>
+                    <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-warning" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="card  w-100" style="border: none;">
+                    <div class="card-body bg-light" style="display: flex; flex-direction: column; gap: 1REM; align-items: flex-start;">
+                        <p class="card-title">Get recent news and updates.</p>
+                        <input class="form-control"  id="lastInput" type="text" placeholder="Enter Your Email Address">
+                        <button id="nav-btn" class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer2 -->
+    <div class="container-fluid bg-light">
+        <div class="progress " role="progressbar" style="width: 80%; margin: auto; height: .5REM; "  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 100%"></div>
+        </div>
+    </div>
+    <!-- Footer3 -->
+    <div class="container-fluid bg-light " style="height: 5REM;">
+        <div class="row " style="width: 80%;" >
+            <div class="col"
+            style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: .3REM;">
+            <h4>Copyright @2024 Design & Developed By <span style="color: #f3274c;"> Hasbellaoui Houria</span></h4>
+            </div>
+        </div>
+    </div>
+    <script src="../JavaScript/restaurant.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
